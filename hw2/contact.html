@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Comp20 hw02 </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .icon {
+            width: 35px;
+            margin: 20px 20px 0 0;
+        }
+
+        .contact {
+            margin: auto;
+            padding-top: 150px;
+        }
+
+        .contact h1 {
+            font-size: 50px;
+            text-align: left;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .contact p,
+        a,
+        h4 {
+            font-size: 25px;
+            line-height: 30px;
+            line-height: 35px;
+        }
+
+        .footer-p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        .contact .row {
+            margin: 5% 10% 5% 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .contact-col {
+            flex-basis: 50%;
+            padding: 15px;
+            float: left;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img src="images/logo2.png" alt=""></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="about.html">ABOUT</a> </li>
+                <li><a href="contact.html">CONTACT</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <h1> Get in touch! </h2>
+                    <hr style="margin-bottom: 10px;">
+                    <h4>Parklane Gallery</h4>
+                    <p class="address">130 Park Lane</p>
+                    <p class="address">Kirkland, WA 98033</p>
+                    <p class="address">425-827-1462</p>
+            </div>
+            <div class="contact-col">
+                <p>Send a message – Ask about becoming a participating artist – Become a volunteer – Make a donation –
+                    Make a suggestion – We’re here and we’re eager to hear from you!</p>
+                <a href="mailto:info@parklanegallery.org">info@parklanegallery.org</a>
+                <br>
+                <a href="https://www.facebook.com/parklanegallery" target="_blank"><img class="icon"
+                        src="images/icons/facebook.png"></a>
+                <a href="https://www.instagram.com/parklanegallery/" target="_blank"><img class="icon"
+                        src="images/icons/instagram.png"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+            <label for="subject">Leave us a message!</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+    </section>
+
+
+    <section class="footer">
+        <div class="row">
+            <div class="footer-col">
+                <p class="footer-p">&copy Emily Gjertsson </p>
+                <a class="footer-p" style="margin-top: -5px;" href="https://www.flaticon.com/free-icons/facebook"
+                    title="facebook icons">icons created by Freepik - Flaticon</a>
+            </div>
+            <div class="footer-col">
+                <p class="footer-p">info@parklanegallery.org</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-p">Phone: (425) 827-1462 </p>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
